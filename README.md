@@ -30,6 +30,9 @@ Aqui las Pruebas de rendimiento evaluan la velocidad, la escalabilidad y estabil
 Esta prueba medira el tiempo total que tarda la funcion *getRandomInt* en generar un gran numero de valores aleatorios por ejemplo 100,000 veces y con esto comprobaremos si la funcion es lo suficientemente rapida para una alta frecuencia en uso.
 
 
+![prueba unitaria uno](https://github.com/Loyix19/PruebasUnitarias/blob/main/PruebaUnitaria3.png) 
+
+
 
 
 
