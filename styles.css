@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial Black', Gadget, sans-serif; /* Fuente más audaz */
+    margin: 40px;
+    line-height: 1.6;
+    background-color: #000000; /* Fondo oscuro para que el neón resalte */
+    color: #00FFFF; /* Cian neón para el texto base */
+    text-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF; /* Efecto de brillo neón */
+}
+
+h1 {
+    text-align: center;
+    color: #FF00FF; /* Magenta neón para el título principal */
+    border-bottom: 3px solid #FF00FF;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 2.8em; /* Título más grande */
+    text-shadow: 0 0 10px #FF00FF, 0 0 20px #FF00FF, 0 0 30px #FF00FF; /* Brillo más intenso */
+}
+
+h2 {
+    color: #00FF00; /* Verde neón para subtítulos */
+    margin-top: 35px;
+    font-size: 1.8em;
+    text-shadow: 0 0 8px #00FF00, 0 0 15px #00FF00;
+}
+
+.definition {
+    background-color: rgba(30, 0, 50, 0.4); /* Fondo semitransparente oscuro con toque púrpura */
+    padding: 20px;
+    border: 2px solid #FFFF00; /* Borde amarillo neón */
+    border-left: 8px solid #FFFF00; /* Borde izquierdo más grueso */
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px #FFFF00, 0 0 25px rgba(255, 255, 0, 0.5); /* Sombra brillante */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+}
+
+.definition p {
+    color: #ADD8E6; /* Azul claro para el texto de la definición */
+    text-shadow: 0 0 3px #ADD8E6;
+}
+
+.formula {
+    font-family: 'Consolas', 'Courier New', monospace; /* Fuente monoespaciada para la fórmula */
+    font-size: 3.5em; /* Fórmula aún más grande */
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px 0;
+    color: #FF1493; /* Rosa neón brillante para la fórmula */
+    text-shadow: 0 0 10px #FF1493, 0 0 20px #FF1493, 0 0 40px #FF1493; /* Brillo intenso */
+    animation: neonPulse 1.5s infinite alternate; /* Animación de parpadeo suave */
+}
+
+@keyframes neonPulse {
+    from {
+        text-shadow: 0 0 10px #FF1493, 0 0 20px #FF1493, 0 0 40px #FF1493;
+    }
+    to {
+        text-shadow: 0 0 8px #FF1493, 0 0 15px #FF1493, 0 0 30px #FF1493, 0 0 50px #FF1493;
+    }
+}
+
+.terms-list {
+    list-style-type: '⚡ '; /* Rayo neón como viñeta */
+    padding-left: 20px; /* Aumenta el padding para la viñeta */
+    margin-top: 25px;
+    color: #00FFFF; /* Cian neón */
+}
+
+.terms-list li {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted rgba(0, 255, 255, 0.3); /* Línea punteada sutil */
+    text-shadow: 0 0 4px #00FFFF;
+}
+
+.terms-list li strong {
+    color: #FFFF00; /* Amarillo neón para las palabras clave */
+    text-shadow: 0 0 5px #FFFF00;
+}
+
+.example {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #FF00FF; /* Magenta neón para el ejemplo */
+    text-shadow: 0 0 8px #FF00FF, 0 0 15px #FF00FF;
+    border: 1px dashed #FF00FF;
+    padding: 15px;
+    background-color: rgba(255, 0, 255, 0.1);
+    border-radius: 5px;
+}
