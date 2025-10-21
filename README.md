@@ -23,6 +23,13 @@ Aqui la prueba validara que nuestra funcion *generarEcuacionAleatoria*:
 3.- Verificar que los coeficientes a,b,c sean numeros enteros dentro del rango *[1,20]*
 
 
+# 3.- Prueba de Rendimiento 
+
+Aqui las Pruebas de rendimiento evaluan la velocidad, la escalabilidad y estabilidad del sistema bajo una carga de trabajo especifica, en nuestro caso haremos una *prueba de latencia de Generacion Aleatoria*
+
+Esta prueba medira el tiempo total que tarda la funcion *getRandomInt* en generar un gran numero de valores aleatorios por ejemplo 100,000 veces y con esto comprobaremos si la funcion es lo suficientemente rapida para una alta frecuencia en uso.
+
+
 
 
 
