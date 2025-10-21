@@ -5,7 +5,7 @@
 La Prueba unitaria consiste en verificar que una funcion o un componente de nuestro proyecto funcione correctamente de forma aislada
 En nuestro caso probamos que la funcion *getRandomInt* devuelva un valor dentro del rango especificado (min y max incluidos).
 
-![prueba unitaria uno](PruebaUnitara1.png)
+![prueba unitaria uno](https://github.com/Loyix19/PruebasUnitarias/blob/main/PruebaUnitaria1.png)
 
 
 
