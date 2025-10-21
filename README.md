@@ -36,7 +36,10 @@ Esta prueba medira el tiempo total que tarda la funcion *getRandomInt* en genera
 
 ![prueba unitaria uno](https://github.com/Loyix19/PruebasUnitarias/blob/main/PruebaUnitariasDOM.png) 
 
-# Resultados de las 3 Pruebas unitarias
+# Resultados de las 3 Pruebas unitaria
+
+![prueba unitaria uno](https://github.com/Loyix19/PruebasUnitarias/blob/main/ResultadoPruebasDOM.png)
+
 
 
 
